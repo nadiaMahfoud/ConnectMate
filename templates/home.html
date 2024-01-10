@@ -24,6 +24,15 @@
       <p class="lead">
         To get started with TravelMate Connect, simply sign up for an account. Once you have a TravelMate Connect account, you can create a profile, upload photos, and share your travel experiences with other travelees.
       </p>
+      <h2 class="text-center mt-2 mb-4">Find Trips</h2>
+      <p class="lead">
+        Discover your next big adventure, hosted by experts from around the world. Our platform offers a wide range of trips, from local events to international tours.
+      </p>
+      <div>  
+        {% for name in countries %}
+         {% include 'countries.html' %}
+        {% endfor %}
+      </div>
       <div class="text-center">
         <button class="btn btn-primary btn-lg">Sign Up</button>
         <button class="btn btn-primary btn-lg"> Contact Us </button>
