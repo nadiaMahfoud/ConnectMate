@@ -1,2 +1,2 @@
-# ConnectMate
+# TravelMate Connect
 Portfolio project Test
