@@ -17,7 +17,7 @@
     {% include 'sidebar.html' %}
     <div class="container">
       <h1 class="text-center mt-2 mb-4">TravelMate Connect</h1>
-      <img class="img-fluid" id="banner" src="https://3c499112-76f3-4e6a-adbf-2bec711756c2-00-1faq3b1daq8ie.spock.replit.dev/static/b2.jpg" height="320">
+      <img class="img-fluid" id="banner" src="https://3c499112-76f3-4e6a-adbf-2bec711756c2-00-1faq3b1daq8ie.spock.replit.dev/static/images/b2.jpg" height="320">
       <h2 class="text-center mt-2 mb-4">About TravelMate Connect</h2>
       <p class="lead">
         Welcome to TravelMate Connect, a platform that connects travelers with local businesses and organizations that offer unique and exciting travel experiences. Our mission is to help travelers find the perfect destination. Whether you're looking for a relaxing beach getaway, a thrilling adventure, or a unique cultural experience, we've got you covered. Our platform is designed to make it easy for you to find the perfect destination, and to connect with local businesses and organizations that offer unique and exciting travel experiences.
@@ -35,19 +35,9 @@
           {% include 'countries.html' %}
         {% endfor %}
       </div>
-      
-      <div class="text-center">
-        <button class="btn btn-primary btn-lg">Sign Up</button>
-        <button class="btn btn-primary btn-lg" onclick="redirectToLoginPage()">Login</button>
-      </div>
+
     </div> 
     {% include 'footer.html' %}
 
-    <script>
-      // JavaScript function to redirect to the login page
-      function redirectToLoginPage() {
-          window.location.href = "login.html";
-      }
-    </script>
-  </body>  
+    </body>  
 </html>
