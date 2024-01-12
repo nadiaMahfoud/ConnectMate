@@ -11,5 +11,5 @@ run = ["sh", "-c", "python app.py"]
 deploymentTarget = "cloudrun"
 
 [auth]
-pageEnabled = true
+pageEnabled = false
 buttonEnabled = false
