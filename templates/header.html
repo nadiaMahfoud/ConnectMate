@@ -20,9 +20,17 @@
       </form>
 
       <div class="text-end">
-        <button type="button" class="btn btn-outline-light me-2">Login</button>
-        <button type="button" class="btn btn-warning">Sign-up</button>
+        <!-- Updated Login button with onclick attribute -->
+        <a href="/api/login" class="btn btn-outline-light me-2">Login</a>
+        <button type="button" class="btn btn-warning" onclick="redirectToLoginPage()">Sign-up</button>
       </div>
     </div>
   </div>
 </header>
+
+<!-- JavaScript function to redirect to the login page -->
+<script>
+  function redirectToLoginPage() {
+    window.location.href = "login.html";
+  }
+</script>

@@ -33,9 +33,14 @@ COUNTRIES = [
 def hello_world():
   return render_template('home.html', countries=COUNTRIES)
 
+@app.route("/api/login")
+def login():
+    return render_template('login.html')
+
 @app.route("/api/countries")
 def list_countries():
   return jsonify(COUNTRIES)
+  
   
 if __name__ == "__main__":
   app.run(host='0.0.0.0', debug=True)
