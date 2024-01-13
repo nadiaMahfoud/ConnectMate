@@ -37,6 +37,10 @@ def hello_world():
 def login():
     return render_template('login.html')
 
+@app.route("/api/signup")
+def signup():
+    return render_template('signup.html')
+
 @app.route("/api/countries")
 def list_countries():
   return jsonify(COUNTRIES)
