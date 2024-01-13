@@ -1,4 +1,3 @@
-<!-- <div class="b-example-divider"></div> -->
 
 <header class="p-3 text-bg-dark">
   <div class="container">
@@ -20,9 +19,13 @@
       </form>
 
       <div class="text-end">
+        <!-- Updated Login and Sign-up buttons with proper href attributes -->
+        <a href="{{ url_for('login') }}" class="btn btn-outline-light me-2">LOG IN</a>
+        <a href="{{ url_for('signup') }}" class="btn btn-outline-light me-2">SIGN UP</a>
+
         <!-- Updated Login button with onclick attribute -->
-        <a href="/api/login" class="btn btn-outline-light me-2">LOG IN</a>
-        <a href="/api/signup" class="btn btn-outline-light me-2">SIGN UP</a>
+        <!-- <a href="{{ url_for('login') }} class="btn btn-outline-light me-2">LOG IN</a>
+        <a href="{{ url_for('signup') }} class="btn btn-outline-light me-2">SIGN UP</a> -->
         <!-- <button type="button" class="btn btn-warning" onclick="redirectToLoginPage()">Sign-up</button> -->
       </div>
     </div>

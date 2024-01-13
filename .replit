@@ -1,4 +1,4 @@
-modules = ["python-3.10:v20-20230824-f46249a"]
+modules = ["python-3.10:v20-20230824-f46249a", "python-3.10:v25-20230920-d4ad2e4"]
 
 hidden = [".pythonlibs"]
 run = "python app.py"
