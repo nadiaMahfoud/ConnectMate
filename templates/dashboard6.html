@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Add any additional styles or scripts here -->
+</head>
+<body>
+
+<div class="container">
+    <h2>Welcome to Your Dashboard, {{ user.first_name }}!</h2>
+    <p>Email: {{ user.email }}</p>
+    <p>Phone: {{ user.phone }}</p>
+    <p>Mobile: {{ user.mobile }}</p>
+    <p>Location: {{ user.location }}</p>
+
+    <!-- Add any additional information you want to display -->
+
+    <a href="/logout">Logout</a>
+</div>
+
+</body>
+</html>
