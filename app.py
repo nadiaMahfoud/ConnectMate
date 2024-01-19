@@ -37,6 +37,22 @@ with app.app_context():
 def hello_world():
     return render_template('index.html')
 
+@app.route('/index')
+def home_page():
+    return render_template('index.html')
+  
+@app.route('/continue_reading-eu')
+def cr_eu():
+    return render_template('continue_reading-eu.html')
+
+@app.route('/continue_reading-as')
+def cr_as():
+    return render_template('continue_reading-as.html')
+
+@app.route('/continue_reading-am')
+def cr_am():
+    return render_template('continue_reading-am.html')
+
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
