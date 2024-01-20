@@ -119,4 +119,4 @@ TravelMate Connect is licensed under the MIT License.
 We hope TravelMate Connect adds an extra spark to your travel adventures! If you have any questions or issues, please don't hesitate to [contact us](nadiamahfoud48@gmail.com & amal.nadifi9@gmail.com). Safe travels! 🌍✈️
 Ready to embark on your travel journey? Visit https://your-deployed-site.com to experience TravelMate Connect. Safe travels! 🌍✈️
 
-![image](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/0d0fe7d2-1899-4a49-8945-c90730556959)
+                                 ![image](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/0d0fe7d2-1899-4a49-8945-c90730556959)
