@@ -90,7 +90,7 @@ git push origin feature-name
 
 For major changes, please open an issue first to discuss potential improvements.
 
-# Screenshots or our WebApp
+# Screenshots of our WebApp
 ![2024-01-20 (9)-1](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/75ed1e03-df82-4902-aea8-8ffa5e5b0f94)
 
 
