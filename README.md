@@ -1,6 +1,13 @@
 # Portfolio project
 # TravelMate Connect: Your Ultimate Travel Companion 🌍✈️
-* TravelMate Connect Screenshot *
+
+# Screenshots of our WebApp
+![2024-01-20 (9)-1](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/75ed1e03-df82-4902-aea8-8ffa5e5b0f94)
+![2024-01-20 (12)](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/1f1389cd-42e6-47fd-9a55-f72d24c6305a)
+![2024-01-20 (13)](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/fee32526-f808-44ba-8e5f-45c203f92de1)
+![2024-01-20 (14)](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/3df6ece4-aadf-4058-823e-5bbcbf130195)
+![2024-01-20 (15)](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/260626da-d17e-4cc7-a85f-bc9b5546e9cc)
+
 
 # Introduction
   Welcome to TravelMate Connect, your ultimate travel companion! This innovative project aims to revolutionize the way travelers plan, connect, and share their journeys. Whether you are a solo adventurer or part of a group, TravelMate Connect ensures seamless travel experiences.
@@ -89,9 +96,6 @@ git push origin feature-name
 5- Submit a pull request.
 
 For major changes, please open an issue first to discuss potential improvements.
-
-# Screenshots of our WebApp
-![2024-01-20 (9)-1](https://github.com/nadiaMahfoud/TravelMate-Connect/assets/129023751/75ed1e03-df82-4902-aea8-8ffa5e5b0f94)
 
 
 # Related Projects
