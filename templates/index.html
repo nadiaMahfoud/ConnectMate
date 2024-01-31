@@ -48,7 +48,7 @@
                                 <li class="nav-item">
                                   <a class="nav-link" href='/login' onclick="window.location.href='/login';">Login</a>
                                 </li>
-                                  
+
                                 <li class="nav-item">
                                   <a class="nav-link" href='/signup' onclick="window.location.href='/signup';">Signup</a>
                                 </li>
@@ -75,78 +75,21 @@
                             </div>  <!-- col-xs-12 -->                      
                         </div> <!-- row -->
                         <div class="row tm-banner-row" id="tm-section-search">
-
                             <form action="index.html" method="get" class="tm-search-form tm-section-pad-2">
-                                <div class="form-row tm-search-form-row">                                
-                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
-                                        <label for="inputCity">Choose Your Destination</label>
-                                        <input name="destination" type="text" class="form-control" id="inputCity" placeholder="Type your destination...">
-                                    </div>
-                                    <div class="form-group tm-form-group tm-form-group-1">                                    
-                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-2">
-                                            <label for="inputRoom">How many rooms?</label>
-                                            <select name="room" class="form-control tm-select" id="inputRoom">
-                                                <option value="1" selected>1 Room</option>
-                                                <option value="2">2 Rooms</option>
-                                                <option value="3">3 Rooms</option>
-                                                <option value="4">4 Rooms</option>
-                                                <option value="5">5 Rooms</option>
-                                                <option value="6">6 Rooms</option>
-                                                <option value="7">7 Rooms</option>
-                                                <option value="8">8 Rooms</option>
-                                                <option value="9">9 Rooms</option>
-                                                <option value="10">10 Rooms</option>
-                                            </select>                                        
-                                        </div>
-                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">                                       
-                                            <label for="inputAdult">Adult</label>     
-                                            <select name="adult" class="form-control tm-select" id="inputAdult">
-                                                <option value="1" selected>1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                            </select>                                        
-                                        </div>
-                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
-
-                                            <label for="inputChildren">Children</label>                                            
-                                            <select name="children" class="form-control tm-select" id="inputChildren">
-                                              <option value="0" selected>0</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                            </select>                                        
-                                        </div>
-                                    </div>
-                                </div> <!-- form-row -->
                                 <div class="form-row tm-search-form-row">
-
-                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
-                                        <label for="inputCheckIn">Check In Date</label>
-                                        <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Check In">
-                                    </div>
-                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
-                                        <label for="inputCheckOut">Check Out Date</label>
-                                        <input name="check-out" type="text" class="form-control" id="inputCheckOut" placeholder="Check Out">
-                                    </div>
                                     <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
                                         <label for="btnSubmit">&nbsp;</label>
-                                        <button type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase" id="btnSubmit">Check Availability</button>
+                                        <a type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase" href='/trips' onclick="window.location.href='/trips';">Check Available Trips</a>
                                     </div>
-                                </div>                              
-                            </form>                             
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                                        <label for="btnCreateTrip">&nbsp;</label>
+                                        <a type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase" href='/login' onclick="window.location.href='/login';">Create a Trip</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
 
                         </div> <!-- row -->
                         <div class="tm-banner-overlay"></div>
@@ -280,7 +223,7 @@
                                   <!-- <li class="nav-item">
                                     <a class="nav-link text-uppercase tm-btn tm-btn-white tm-btn-white-primary" href='/continue_reading-am' onclick="window.location.href='/continue_reading-am';">Continue reading</a>
                                   </li>-->
-                                  
+
                                 </a>                        
                             </div>
                             <div class="tm-recommended-place">
@@ -736,7 +679,7 @@
           </section>
             <div class="tm-container-outer tm-position-relative" id="tm-section-4">
                 <div id="google-map"></div>
-                <form action="index.html" method="post" class="tm-contact-form">
+                <form action="/contact_submit" method="post" class="tm-contact-form">
                     <div class="form-group tm-name-container">
                         <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
                     </div>
@@ -847,7 +790,8 @@
             $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright           
         });
 
-    </script>             
+    </script>
+
 
 </body>
 </html>
